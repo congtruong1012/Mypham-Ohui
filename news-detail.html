@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/fav-icon.png">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/fontawesome-all-min.css.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Mỹ Phẩm Ohui</title>
+    <style>
+        .login {
+            position: absolute;
+            display: block;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #6a9bd8;
+            background: #ebf5fc;
+            border: none;
+            outline: none;
+            width: 250px;
+            height: 70px;
+            font-size: 25px;
+            border-radius: 50px;
+            box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.9),
+                inset 8px 8px 16px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .login:focus {
+            box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+                6px 6px 10px rgba(0, 0, 0, 0.2);
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__navbar">
+            <div class="header__navbar-top ">
+                <div class="container-wrapper header__navbar-top--container ">
+                    <ul class="header__navbar-top-left__list ">
+                        <li class="header__navbar-top-left__item">
+                            <a href="#" class="header__navbar-top-left__item-link">Vào cửa hàng trên ứng dụng
+                                MyOhui</a>
+                            <a class="header__navbar-QR ">
+                                <img src="./img/QR.png" alt="">
+                                <div class="header__navbar-QR__store">
+                                    <img src="./img/ggplay.png" alt="">
+                                    <img src="./img/appstore.png" alt="">
+
+                                </div>
+                            </a>
+                        </li>
+                        <li class="header__navbar-top-left__item">
+                            <a href="#" class="header__navbar-top-left__item-link">
+                                <img src="./img/telephone.png" alt="" class="header__navbar-top-left__item-img">
+                                0394958406
+                            </a>
+
+                        </li>
+                        <li class="header__navbar-top-left__item">
+                            <a href="#" class="header__navbar-top-left__item-link">
+                                <img src="./img/envelope.png" alt="" class="header__navbar-top-left__item-img">
+                                congtruong@gmail.com
+                            </a>
+
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-top-right__list">
+                        <li class="header__navbar-top-right__item">
+                            <a href="#" class="header__navbar-top-right__item-link">
+                                <i class="fal fa-bell header__navbar-top-right__item-icon"></i> Tin Tức
+                            </a>
+                            <div class="header__navbar-news">
+                                <div class="header__navbar-news__header">
+                                    Tin tức mới nhất
+                                </div>
+                                <div class="header__navbar-news__body">
+                                    <a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a><a href="#" class="header__navbar-news__item">
+                                        <div class="header__navbar-news__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-news__content">
+                                            <div class="header__navbar-news__title">
+                                                Sale Sốc bộ dưỡng Ohui The First Tái tạo trẻ hóa da SALE OFF 70%
+
+                                            </div>
+                                            <div class="header__navbar-news__desc">
+                                                Siêu sale duy nhất 3 ngày 11-13/12/2019
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                </div>
+                                <div class="header__navbar-news__footer">
+                                    <a href="#">Xem tất cả</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-top-right__item">
+                            <a href="#" class="header__navbar-top-right__item-link">
+                                <i class="fal fa-question-circle header__navbar-top-right__item-icon"></i> Trợ Giúp
+                            </a>
+
+                        </li>
+                        <li class="header__navbar-top-right__item">
+                            <a href="#" class="header__navbar-top-right__item-link">
+                                Đăng Ký
+                            </a>
+
+                        </li>
+                        <li class="header__navbar-top-right__item">
+                            <a href="./login.html" class="header__navbar-top-right__item-link">
+                                Đăng Nhập
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__navbar_bottom">
+                <div class="container-wrapper header__navbar_bottom--container">
+                    <input type="checkbox" hidden id="check-bar">
+                    <input type="checkbox" hidden id="check-search">
+                    <div class="header__navbar_bottom-bar-search">
+                        <label for="check-bar" class="header__navbar_bottom-bar">
+                            <i class="far fa-bars"></i>
+                        </label>
+                        <label for="check-search" class="header__navbar_bottom-search-mobile">
+                            <i class="far fa-search"></i>
+                        </label>
+                    </div>
+                    <a href="./index.html" class="header__navbar_bottom-logo">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                    <div class="header__navbar_bottom-search">
+                        <form action="#">
+                            <input type="text" name="search" placeholder="Tìm kiếm...">
+                            <div class="header__navbar_bottom-search__shop">
+                                Cửa hàng <i class="fal fa-chevron-down"></i>
+                            </div>
+                            <div class="result">
+                                <a href="#" class="result__item">
+                                    <div class="result__item-img">
+                                        <img src="./img/product1.png" alt="">
+                                    </div>
+                                    <div class="result__item-name">
+                                        Set sữa rửa mặt Ohui Prime Gel Cleanser
+                                    </div>
+                                </a>
+                                <a href="#" class="result__item">
+                                    <div class="result__item-img">
+                                        <img src="./img/product1.png" alt="">
+                                    </div>
+                                    <div class="result__item-name">
+                                        Set sữa rửa mặt Ohui Prime Gel Cleanser
+                                    </div>
+                                </a>
+                                <a href="#" class="result__item">
+                                    <div class="result__item-img">
+                                        <img src="./img/product1.png" alt="">
+                                    </div>
+                                    <div class="result__item-name">
+                                        Set sữa rửa mặt Ohui Prime Gel Cleanser
+                                    </div>
+                                </a>
+                                <a href="#" class="result__item">
+                                    <div class="result__item-img">
+                                        <img src="./img/product1.png" alt="">
+                                    </div>
+                                    <div class="result__item-name">
+                                        Set sữa rửa mặt Ohui Prime Gel Cleanser
+                                    </div>
+                                </a>
+                                <a href="#" class="result__item">
+                                    <div class="result__item-img">
+                                        <img src="./img/product1.png" alt="">
+                                    </div>
+                                    <div class="result__item-name">
+                                        Set sữa rửa mặt Ohui Prime Gel Cleanser
+                                    </div>
+                                </a>
+                                <a href="#" class="result__item">
+                                    <div class="result__item-img">
+                                        <img src="./img/product1.png" alt="">
+                                    </div>
+                                    <div class="result__item-name">
+                                        Set sữa rửa mặt Ohui Prime Gel Cleanser
+                                    </div>
+                                </a>
+                                <a href="#" class="result__item">
+                                    <div class="result__item-img">
+                                        <img src="./img/product1.png" alt="">
+                                    </div>
+                                    <div class="result__item-name">
+                                        Set sữa rửa mặt Ohui Prime Gel Cleanser
+                                    </div>
+                                </a>
+                                <a href="#" class="result__item">
+                                    <div class="result__item-img">
+                                        <img src="./img/product1.png" alt="">
+                                    </div>
+                                    <div class="result__item-name">
+                                        Set sữa rửa mặt Ohui Prime Gel Cleanser
+                                    </div>
+                                </a>
+
+                            </div>
+                        </form>
+
+                        <button type="button"><i class="fal fa-search"></i></button>
+
+                    </div>
+                    <div class="header__navbar_bottom-cart">
+                        <a href="./cart-info.html">
+                            <i class="far fa-shopping-cart">
+                            </i>
+                            <div id="count" class="header__navbar_bottom-cart-count">
+                                10
+                            </div>
+                        </a>
+
+
+                        <div class="header__navbar-cart">
+                            <!-- <div class="header__navbar-cart__no">
+                                <div class="header__navbar-cart__no-bg"></div>
+                                <div class="header__navbar-cart__no-name">
+                                    Giỏ Hàng Trống
+                                </div>
+                            </div> -->
+                            <div class="header__navbar-cart__has">
+                                <div class="header__navbar-cart__header">
+                                    Sản phẩm mới thêm
+                                </div>
+                                <div class="header__navbar-cart__body">
+                                    <div class="header__navbar-cart__item">
+                                        <div class="header__navbar-cart__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-cart__name">
+                                            Bộ dưỡng Ohui The First Tái tạo trẻ hóa da Bộ dưỡng Ohui The First Tái tạo
+                                            trẻ hóa da Bộ dưỡng Ohui The First Tái tạo trẻ hóa da
+                                        </div>
+                                        <div class="header__navbar-cart__control">
+                                            <div class="header__navbar-cart__total">
+                                                <div class="header__navbar-cart__price">
+                                                    1.000.000đ
+                                                </div>
+                                                <div class="header__navbar-cart__num">
+                                                    x 3
+                                                </div>
+                                            </div>
+                                            <div class="header__navbar-cart__delete">
+                                                <button>Xóa</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header__navbar-cart__item">
+                                        <div class="header__navbar-cart__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-cart__name">
+                                            Bộ dưỡng Ohui The First Tái tạo trẻ hóa da Bộ dưỡng Ohui The First Tái tạo
+                                            trẻ hóa da Bộ dưỡng Ohui The First Tái tạo trẻ hóa da
+                                        </div>
+                                        <div class="header__navbar-cart__control">
+                                            <div class="header__navbar-cart__total">
+                                                <div class="header__navbar-cart__price">
+                                                    1.000.000đ
+                                                </div>
+                                                <div class="header__navbar-cart__num">
+                                                    x 3
+                                                </div>
+                                            </div>
+                                            <div class="header__navbar-cart__delete">
+                                                <button>Xóa</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header__navbar-cart__item">
+                                        <div class="header__navbar-cart__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-cart__name">
+                                            Bộ dưỡng Ohui The First Tái tạo trẻ hóa da Bộ dưỡng Ohui The First Tái tạo
+                                            trẻ hóa da Bộ dưỡng Ohui The First Tái tạo trẻ hóa da
+                                        </div>
+                                        <div class="header__navbar-cart__control">
+                                            <div class="header__navbar-cart__total">
+                                                <div class="header__navbar-cart__price">
+                                                    1.000.000đ
+                                                </div>
+                                                <div class="header__navbar-cart__num">
+                                                    x 3
+                                                </div>
+                                            </div>
+                                            <div class="header__navbar-cart__delete">
+                                                <button>Xóa</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header__navbar-cart__item">
+                                        <div class="header__navbar-cart__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-cart__name">
+                                            Bộ dưỡng Ohui The First Tái tạo trẻ hóa da Bộ dưỡng Ohui The First Tái tạo
+                                            trẻ hóa da Bộ dưỡng Ohui The First Tái tạo trẻ hóa da
+                                        </div>
+                                        <div class="header__navbar-cart__control">
+                                            <div class="header__navbar-cart__total">
+                                                <div class="header__navbar-cart__price">
+                                                    1.000.000đ
+                                                </div>
+                                                <div class="header__navbar-cart__num">
+                                                    x 3
+                                                </div>
+                                            </div>
+                                            <div class="header__navbar-cart__delete">
+                                                <button>Xóa</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="header__navbar-cart__item">
+                                        <div class="header__navbar-cart__img">
+                                            <img src="./img/product1.png" alt="">
+                                        </div>
+                                        <div class="header__navbar-cart__name">
+                                            Bộ dưỡng Ohui The First Tái tạo trẻ hóa da Bộ dưỡng Ohui The First Tái tạo
+                                            trẻ hóa da Bộ dưỡng Ohui The First Tái tạo trẻ hóa da
+                                        </div>
+                                        <div class="header__navbar-cart__control">
+                                            <div class="header__navbar-cart__total">
+                                                <div class="header__navbar-cart__price">
+                                                    1.000.000đ
+                                                </div>
+                                                <div class="header__navbar-cart__num">
+                                                    x 3
+                                                </div>
+                                            </div>
+                                            <div class="header__navbar-cart__delete">
+                                                <button>Xóa</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header__navbar-cart__footer">
+                                    <a href="./cart-info.html">Xem Giỏ Hang</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="header__navbar_bottom-account">
+                        <img src="./img/account.png" alt="">
+                    </a>
+                    <label for="check-bar" class="header__navbar-overlay"></label>
+                    <div class="all-product__mobile">
+                        <ul class="all-product__mobile-list">
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Tất cả sản phẩm
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dầu gội
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Sửa rửa mặt
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Sữa tắm
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Kem dưỡng da
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dầu xả
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Lăn khử mùi
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Nước hoa
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Nhẫn
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dây chuyền
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dây chuyền
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dây chuyền
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dây chuyền
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dây chuyền
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dây chuyền
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dây chuyền
+                                </a>
+                            </li>
+                            <li class="all-product__mobile-item">
+                                <a href="" class="all-product__mobile-link">Dây chuyền
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__navbar-sort">
+                <div class="header__navbar-sort__item">
+                    <button class="">Liên quan</button>
+                </div>
+                <div class="header__navbar-sort__item">
+                    <button class="">Mới nhất</button>
+                </div>
+                <div class="header__navbar-sort__item">
+                    <button class="">Bán chạy</button>
+                </div>
+                <div class="header__navbar-sort__item">
+                    <button class="">
+                        Giá <i class="far fa-chevron-down"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="grid wide container-wrapper">
+            <div class="news">
+                <div class="news-left">
+                    <div class="news-content">
+                        <h1 class="news-content__title">Điều khoản Shop</h1>
+                        <div class="news-content__brief">
+                                Điều khoản sử dụng
+                        </div>
+                        <div class="news-content__desc">
+                            <h2><span style="font-size:12px">1. Chấp nhận c&aacute;c điều khoản sử dụng</span></h2>
+    
+                            <p><span style="font-size:12px">C&aacute;c điều khoản v&agrave; điều kiện sau đ&acirc;y (gọi
+                                    chung l&agrave; c&aacute;c &ldquo;Điều khoản sử dụng&rdquo;) quy định việc truy cập
+                                    v&agrave; sử dụng c&aacute;c dịch vụ, th&ocirc;ng tin từ OnlineShop<br />
+                                    Bằng việc sử dụng bất kỳ dịch vụ n&agrave;o của c&ocirc;ng ty, bạn chấp nhận, đồng
+                                    &yacute; bị r&agrave;ng buộc v&agrave; tu&acirc;n thủ c&aacute;c điều khoản sử dụng dưới
+                                    đ&acirc;y.<br />
+                                    Nếu bạn kh&ocirc;ng đồng &yacute; với bất kỳ điều khoản sử dụng, ch&iacute;nh
+                                    s&aacute;ch bảo mật của OnlineShop&nbsp;&nbsp;hoặc kh&ocirc;ng c&oacute; đầy đủ năng lực
+                                    h&agrave;nh vi d&acirc;n sự ph&ugrave; hợp, xin vui l&ograve;ng dừng việc truy cập
+                                    v&agrave; sử dụng&nbsp;ngay lập tức.</span></p>
+    
+                            <h2><span style="font-size:12px">2. Truy cập&nbsp;</span></h2>
+    
+                            <p><span style="font-size:12px">Ohuiha.com&nbsp;&nbsp;bảo lưu quyền được chấm dứt, thay đổi bất
+                                    kỳ dịch vụ, th&ocirc;ng tin n&agrave;o m&agrave; CellphoneS cung cấp v&agrave;o bất cứ
+                                    l&uacute;c n&agrave;o, theo quyết định của c&ocirc;ng ty&nbsp;m&agrave; kh&ocirc;ng cần
+                                    b&aacute;o trước. Để truy cập v&agrave; sử dụng c&aacute;c dịch vụ, th&ocirc;ng tin của
+                                    c&ocirc;ng ty, bạn c&oacute; thể được y&ecirc;u cầu cung cấp một số th&ocirc;ng tin đăng
+                                    k&yacute; nhất định khi bạn đăng k&yacute; th&agrave;nh vi&ecirc;n/ đăng k&yacute; nhận
+                                    bản tin.<br />
+                                    Bạn đảm bảo rằng tất cả c&aacute;c th&ocirc;ng tin bạn cung cấp cho shop&nbsp;l&agrave;
+                                    ch&iacute;nh x&aacute;c, đầy đủ v&agrave; cập nhật. Bạn đồng &yacute; rằng tất cả
+                                    c&aacute;c th&ocirc;ng tin m&agrave; bạn cung cấp cho shop&nbsp; th&ocirc;ng qua Website
+                                    của c&ocirc;ng ty được điều chỉnh bởi ch&iacute;nh s&aacute;ch bảo mật của c&ocirc;ng
+                                    ty&nbsp;.<br />
+                                    Nếu bạn lựa chọn, hoặc được cung cấp, một t&ecirc;n người d&ugrave;ng, mật khẩu hoặc bất
+                                    kỳ phần n&agrave;o kh&aacute;c của th&ocirc;ng tin như l&agrave; một phần của thủ tục an
+                                    ninh , bạn c&oacute; nghĩa vụ bảo mật c&aacute;c th&ocirc;ng tin n&agrave;y, v&agrave;
+                                    kh&ocirc;ng được tiết lộ cho bất kỳ người n&agrave;o hoặc tổ chức n&agrave;o
+                                    kh&aacute;c.<br />
+                                    Bạn cũng x&aacute;c nhận rằng t&agrave;i khoản của bạn l&agrave; d&agrave;nh ri&ecirc;ng
+                                    cho bạn v&agrave; đồng &yacute; kh&ocirc;ng cung cấp th&ocirc;ng tin t&agrave;i khoản
+                                    cho bất kỳ người n&agrave;o kh&aacute;c để truy cập v&agrave;o c&aacute;c dịch vụ,
+                                    th&ocirc;ng tin của shop&nbsp;. Bạn đồng &yacute; th&ocirc;ng b&aacute;o cho shop ngay
+                                    lập tức bất kỳ việc truy cập tr&aacute;i ph&eacute;p n&agrave;o c&oacute; sử dụng đến
+                                    t&ecirc;n sử dụng, mật khẩu của bạn.<br />
+                                    Ohuiha.com&nbsp;&nbsp;c&oacute; quyền v&ocirc; hiệu h&oacute;a bất kỳ t&ecirc;n người
+                                    d&ugrave;ng, mật khẩu hoặc số nhận dạng kh&aacute;c, đ&atilde; được lựa chọn bởi bạn
+                                    hoặc cung cấp bởi shop,&nbsp; bất cứ l&uacute;c n&agrave;o theo quyết định của
+                                    shop&nbsp; m&agrave; kh&ocirc;ng cần th&ocirc;ng b&aacute;o l&yacute; do của việc
+                                    v&ocirc; hiệu h&oacute;a đ&oacute;.</span></p>
+    
+                            <h2><span style="font-size:12px">3. Quyền sở hữu tr&iacute; tuệ</span></h2>
+    
+                            <p><span style="font-size:12px">C&aacute;c Điều khoản sử dụng cho ph&eacute;p bạn sử dụng
+                                    c&aacute;c dịch vụ của c&ocirc;ng ty&nbsp;cho c&aacute; nh&acirc;n, cho mục đ&iacute;ch
+                                    phi thương mại.<br />
+                                    Bạn kh&ocirc;ng được sao ch&eacute;p, ph&acirc;n phối, sửa đổi, hiển thị c&ocirc;ng
+                                    khai, thực hiện c&ocirc;ng khai, t&aacute;i xuất bản, tải về, lưu trữ hoặc truyền tải
+                                    bất kỳ nội dung hoặc t&agrave;i liệu c&oacute; sẵn tr&ecirc;n Website của shop&nbsp;
+                                    ngoại trừ trường hợp việc n&agrave;y được thực hiện tự động bởi m&aacute;y t&iacute;nh/
+                                    tr&igrave;nh duyệt web m&agrave; bạn sử dụng, cần thiết cho việc truy cập v&agrave; sử
+                                    dụng c&aacute;c dịch vụ, th&ocirc;ng tin của shop.</span></p>
+    
+                            <h2><span style="font-size:12px">4. Thương hiệu</span></h2>
+    
+                            <p><span style="font-size:12px">Bạn kh&ocirc;ng được sử dụng thương hiệu của
+                                    Ohuiha.com&nbsp;m&agrave; kh&ocirc;ng c&oacute; sự cho ph&eacute;p trước bằng văn bản
+                                    của c&ocirc;ng ty. C&aacute;c thương hiệu của c&aacute;c b&ecirc;n thứ ba, c&aacute;c
+                                    biểu tượng, sản phẩm hoặc dịch vụ, thiết kế hay khẩu hiệu xuất hiện tr&ecirc;n
+                                    web&nbsp;kh&ocirc;ng nhất thiết chỉ ra bất kỳ sự li&ecirc;n kết n&agrave;o của
+                                    c&aacute;c b&ecirc;n thứ ba đ&oacute; Ohuiha.com</span></p>
+    
+                            <h2><span style="font-size:12px">5. H&agrave;nh vi nghi&ecirc;m cấm</span></h2>
+    
+                            <p><span style="font-size:12px">Bạn chỉ c&oacute; thể sử dụng c&aacute;c dịch vụ của
+                                    shop&nbsp;cho c&aacute;c mục đ&iacute;ch hợp ph&aacute;p v&agrave; ph&ugrave; hợp với
+                                    c&aacute;c điều khoản sử dụng. Bạn đồng &yacute; kh&ocirc;ng sử dụng c&aacute;c dịch vụ
+                                    của shop&nbsp; cho bất kỳ h&agrave;nh vi hoặc mục đ&iacute;ch vi phạm ph&aacute;p
+                                    luật.</span></p>
+    
+                            <h2><span style="font-size:12px">6. Đ&oacute;ng g&oacute;p của th&agrave;nh vi&ecirc;n</span>
+                            </h2>
+    
+                            <p><span style="font-size:12px">C&aacute;c dịch vụ của c&ocirc;ng ty&nbsp;c&oacute; thể chứa
+                                    bảng tin, c&aacute;c trang web c&aacute; nh&acirc;n hoặc cấu h&igrave;nh, chức năng nhắn
+                                    tin v&agrave; c&aacute;c t&iacute;nh năng tương t&aacute;c kh&aacute;c (gọi chung
+                                    l&agrave; &ldquo;Dịch vụ tương t&aacute;c&rdquo;) cho ph&eacute;p người d&ugrave;ng gửi,
+                                    xuất bản, truyền tải cho người kh&aacute;c nội dung hoặc t&agrave;i liệu (gọi chung
+                                    l&agrave; &ldquo;những đ&oacute;ng g&oacute;p của th&agrave;nh vi&ecirc;n&rdquo;),
+                                    tr&ecirc;n hoặc th&ocirc;ng qua Dịch vụ của c&ocirc;ng ty.<br />
+                                    Bất kỳ th&ocirc;ng tin n&agrave;o bạn gửi đến c&aacute;c Dịch vụ của shop&nbsp; sẽ
+                                    kh&ocirc;ng được coi l&agrave; c&aacute;c th&ocirc;ng tin bảo mật. Bằng c&aacute;ch cung
+                                    cấp bất kỳ đ&oacute;ng g&oacute;p n&agrave;o tr&ecirc;n c&aacute;c Dịch vụ của shop, bạn
+                                    cấp cho shop&nbsp; quyền kh&ocirc;ng thể thu hồi, đầy đủ, vĩnh viễn, v&agrave; miễn
+                                    ph&iacute; để t&aacute;i xuất bản, trưng b&agrave;y, ph&acirc;n phối, sửa đổi.<br />
+                                    Bạn bảo đảm rằng bạn sở hữu hoặc kiểm so&aacute;t mọi quyền đối với c&aacute;c
+                                    th&ocirc;ng tin đ&oacute;ng g&oacute;p cho shop. Bạn đảm bảo t&iacute;nh hợp
+                                    ph&aacute;p, độ tin cậy, t&iacute;nh ch&iacute;nh x&aacute;c v&agrave; ph&ugrave; hợp
+                                    của c&aacute;c th&ocirc;ng tin đ&oacute;. Shop kh&ocirc;ng chịu tr&aacute;ch nhiệm với
+                                    bất kỳ b&ecirc;n thứ ba n&agrave;o, về nội dung hoặc t&iacute;nh ch&iacute;nh x&aacute;c
+                                    của bất kỳ đ&oacute;ng g&oacute;p n&agrave;o của người d&ugrave;ng.</span></p>
+    
+                            <h2><span style="font-size:12px">7. Gi&aacute;m s&aacute;t v&agrave; Thi h&agrave;nh</span></h2>
+    
+                            <p><span style="font-size:12px">Ohuiha.com c&oacute; quyền: loại bỏ hoặc từ chối đưa l&ecirc;n
+                                    bất kỳ th&ocirc;ng tin đ&oacute;ng g&oacute;p n&agrave;o của th&agrave;nh vi&ecirc;n
+                                    theo đ&aacute;nh gi&aacute; của c&ocirc;ng ty; thực hiện c&aacute;c sửa đổi m&agrave;
+                                    c&ocirc;ng ty&nbsp;cho l&agrave; cần thiết đối với c&aacute;c đ&oacute;ng g&oacute;p của
+                                    th&agrave;nh vi&ecirc;n; tiết lộ danh t&iacute;nh của bạn hoặc c&aacute;c th&ocirc;ng
+                                    tin kh&aacute;c về bạn theo c&aacute;c y&ecirc;u cầu của c&aacute;c cơ quan chức năng
+                                    c&oacute; thẩm quyền; chấm dứt hoặc đ&igrave;nh chỉ truy cập của bạn đến tất cả hay một
+                                    phần của Dịch vụ c&ocirc;ng ty&nbsp;cho bất kỳ hoặc kh&ocirc;ng v&igrave; l&yacute; do
+                                    g&igrave;.<br />
+                                    Ohuiha.com&nbsp;kh&ocirc;ng thực hiện xem x&eacute;t c&aacute;c t&agrave;i liệu trước
+                                    khi n&oacute; được đăng tải tr&ecirc;n c&aacute;c Dịch vụ của Ohuiha.com,&nbsp;v&agrave;
+                                    kh&ocirc;ng thể đảm bảo loại bỏ nhanh ch&oacute;ng c&aacute;c th&ocirc;ng tin n&agrave;y
+                                    sau khi n&oacute; đ&atilde; được đăng.</span></p>
+    
+                            <h2><span style="font-size:12px">8. Ti&ecirc;u chuẩn nội dung</span></h2>
+    
+                            <p><span style="font-size:12px">Ti&ecirc;u chuẩn &aacute;p dụng cho bất kỳ v&agrave; tất cả
+                                    c&aacute;c đ&oacute;ng g&oacute;p của người sử dụng. Nội dung đ&oacute;ng g&oacute;p của
+                                    người d&ugrave;ng phải tu&acirc;n thủ c&aacute;c qui định ph&aacute;p luật.<br />
+                                    Theo đ&oacute;, Ohuiha.com&nbsp;kh&ocirc;ng chịu tr&aacute;ch nhiệm với bất kỳ b&ecirc;n
+                                    thứ ba n&agrave;o về việc c&ocirc;ng ty&nbsp; kh&ocirc;ng thể loại bỏ kịp thời
+                                    c&aacute;c th&ocirc;ng tin đ&oacute;ng g&oacute;p bởi th&agrave;nh vi&ecirc;n tr&ecirc;n
+                                    c&aacute;c dịch vụ của Mỹ phẩm Ohui .</span></p>
+    
+                            <h2><span style="font-size:12px">9. Vi phạm bản quyền</span></h2>
+    
+                            <p><span style="font-size:12px">Ohuiha.com coi trọng vấn đề bản quyền v&agrave; sẽ phản hồi lại
+                                    c&aacute;c th&ocirc;ng b&aacute;o về việc vi phạm bản quyền theo đ&uacute;ng c&aacute;c
+                                    qui định của ph&aacute;p luật. Nếu bạn tin rằng bất kỳ th&ocirc;ng tin n&agrave;o cung
+                                    cấp tr&ecirc;n Ohuiha.com&nbsp;vi phạm bản quyền của bạn, bạn c&oacute; thể y&ecirc;u
+                                    cầu loại bỏ c&aacute;c th&ocirc;ng tin n&agrave;y từ c&aacute;c dịch vụ của
+                                    Ohuiha.com&nbsp;bằng c&aacute;ch gửi th&ocirc;ng b&aacute;o cho Ohuiha.com qua thư điện
+                                    tử hoặc c&aacute;c h&igrave;nh thức li&ecirc;n lạc ph&ugrave; hợp kh&aacute;c.</span>
+                            </p>
+    
+                            <h2><span style="font-size:12px">10. Dựa v&agrave;o th&ocirc;ng tin cung cấp</span></h2>
+    
+                            <p><span style="font-size:12px">C&aacute;c th&ocirc;ng tin c&oacute; sẵn tr&ecirc;n hoặc
+                                    th&ocirc;ng qua Dịch vụ của Ohuiha.com&nbsp;&nbsp;được cung cấp duy nhất cho mục
+                                    đ&iacute;ch th&ocirc;ng tin chung. Ohuiha.com&nbsp;c&oacute; thể cập nhật c&aacute;c
+                                    th&ocirc;ng tin n&agrave;y theo thời gian, nhưng nội dung của n&oacute; kh&ocirc;ng nhất
+                                    thiết phải ho&agrave;n chỉnh hoặc được cập nhật một c&aacute;ch đầy đủ. Bất kỳ
+                                    th&ocirc;ng tin n&agrave;o c&oacute; sẵn tr&ecirc;n Website CellphoneS c&oacute; thể
+                                    được thay đổi tại bất kỳ thời điểm n&agrave;o, v&agrave;
+                                    Ohuiha.com<strong>&nbsp;</strong>kh&ocirc;ng c&oacute; nghĩa vụ phải cập nhật
+                                    th&ocirc;ng tin như vậy.<br />
+                                    Th&ocirc;ng tin được cung cấp tr&ecirc;n&nbsp;Ohuiha.com&nbsp;cho mục đ&iacute;ch
+                                    th&ocirc;ng tin chung. Ch&uacute;ng t&ocirc;i từ chối bất kỳ v&agrave; tất cả c&aacute;c
+                                    tr&aacute;ch nhiệm li&ecirc;n quan đến (i) độ ch&iacute;nh x&aacute;c, ho&agrave;n
+                                    thiện, tin cậy, hiệu quả, sử dụng, hoặc kết quả sử dụng c&aacute;c th&ocirc;ng tin
+                                    c&ocirc;ng bố tr&ecirc;n Ohuiha.com&nbsp;; v&agrave; bạn chịu tr&aacute;ch nhiệm
+                                    ho&agrave;n to&agrave;n với bất kỳ h&agrave;nh động n&agrave;o dựa v&agrave;o việc sử
+                                    dụng bất cứ th&ocirc;ng tin c&ocirc;ng bố tr&ecirc;n Ohuiha.com</span></p>
+    
+                            <h2><span style="font-size:12px">11. Từ chối c&aacute;c bảo đảm</span></h2>
+    
+                            <p><span style="font-size:12px">Bạn hiểu rằng Ohuiha.com kh&ocirc;ng thể v&agrave; kh&ocirc;ng
+                                    đảm bảo những tập tin c&oacute; sẵn để tải về từ Internet hoặc c&aacute;c trang web sẽ
+                                    kh&ocirc;ng chứa virus hoặc c&aacute;c m&atilde; ph&aacute; hoại kh&aacute;c. Bạn chịu
+                                    tr&aacute;ch nhiệm thực hiện đầy đủ thủ tục kiểm tra để đ&aacute;p ứng c&aacute;c
+                                    y&ecirc;u cầu cụ thể để bảo vệ bạn chống virus v&agrave; c&aacute;c chương tr&igrave;nh
+                                    ph&aacute; hoại.</span></p>
+    
+                            <h2><span style="font-size:12px">12. Miễn trừ tr&aacute;ch nhiệm ph&aacute;p l&yacute;</span>
+                            </h2>
+    
+                            <p><span style="font-size:12px">Trong bất cứ trường hợp n&agrave;o, Ohuiha.com&nbsp;sẽ
+                                    kh&ocirc;ng chịu tr&aacute;ch nhiệm với bạn hoặc bất kỳ người n&agrave;o kh&aacute;c/
+                                    b&ecirc;n thứ ba n&agrave;o kh&aacute;c cho mọi, hậu quả ph&aacute;t sinh b&ecirc;n
+                                    ngo&agrave;i hoặc li&ecirc;n quan đến những điều khoản sử dụng v&agrave;/hoặc những dịch
+                                    vụ của&nbsp;Ohuiha.com</span></p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="news-right">
+                    <div class="category-news">
+                        <div class="category-news__title">
+                            DANH MỤC TIN TỨC
+                        </div>
+                        <div class="category-news__list">
+                            <div class="category-news__item">
+                                <span>Về chúng tôi</span>
+                            </div>
+                            <div class="category-news__item">
+                                <span>Chăm sóc khách hàng</span>
+                            </div>
+                            <div class="category-news__item">
+                                <span>Khuyến mãi</span>
+                            </div>
+                            <div class="category-news__item">
+                                <span>Sản phẩm mới</span>
+                            </div>
+                            <div class="category-news__item">
+                                <span>Tin tức - Sự kiện</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-news">
+                        <div class="category-news__title">
+                            TIN TỨC MỚI NHẤT
+                        </div>
+                        <div class="category-news__list">
+                            <div class="category-news__item">
+                                <div class="news-title">Chăm sóc không quên chống nắng</div>
+                                <div class="news-post">
+                                    <span>20-05-2020</span> <span>14:06:13</span>
+                                </div>
+                            </div>
+                            <div class="category-news__item">
+                                <div class="news-title">Chăm sóc không quên chống nắng</div>
+                                <div class="news-post">
+                                    <span>20-05-2020</span> <span>14:06:13</span>
+                                </div>
+                            </div>
+                            <div class="category-news__item">
+                                <div class="news-title">Chăm sóc không quên chống nắng</div>
+                                <div class="news-post">
+                                    <span>20-05-2020</span> <span>14:06:13</span>
+                                </div>
+                            </div>
+                            <div class="category-news__item">
+                                <div class="news-title">Chăm sóc không quên chống nắng</div>
+                                <div class="news-post">
+                                    <span>20-05-2020</span> <span>14:06:13</span>
+                                </div>
+                            </div>
+                            <div class="category-news__item">
+                                <div class="news-title">Chăm sóc không quên chống nắng</div>
+                                <div class="news-post">
+                                    <span>20-05-2020</span> <span>14:06:13</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-news">
+                        <div class="category-news__title">SẢN PHẨM MỚI NHẤT</div>
+                        <div class="product_detail__involve-item" style="background: #fff; padding-bottom: 15px;">
+                            <a href="#" class="product_detail__involve-link">
+                                <div class="product_detail__involve-img" style="background-image: url('./img/product3.png');
+                                background-repeat: no-repeat;
+                                background-size: contain;">
+                                </div>
+                                <div class="product_detail__involve-name">
+                                    Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs Set
+                                </div>
+                                <div class="product_detail__involve-price">
+                                    <div class="product_detail__involve-price--origin">3.200.000đ</div>
+                                    <div class="product_detail__involve-price--desc">2.880.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_detail__involve-item" style="background: #fff; padding-bottom: 15px;">
+                            <a href="#" class="product_detail__involve-link">
+                                <div class="product_detail__involve-img" style="background-image: url('./img/product3.png');
+                                background-repeat: no-repeat;
+                                background-size: contain;">
+                                </div>
+                                <div class="product_detail__involve-name">
+                                    Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs Set
+                                </div>
+                                <div class="product_detail__involve-price">
+                                    <div class="product_detail__involve-price--origin">3.200.000đ</div>
+                                    <div class="product_detail__involve-price--desc">2.880.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_detail__involve-item" style="background: #fff; padding-bottom: 15px;">
+                            <a href="#" class="product_detail__involve-link">
+                                <div class="product_detail__involve-img" style="background-image: url('./img/product3.png');
+                                background-repeat: no-repeat;
+                                background-size: contain;">
+                                </div>
+                                <div class="product_detail__involve-name">
+                                    Bộ dưỡng trắng da Su:m37 Water-full Radiant 3pcs Set
+                                </div>
+                                <div class="product_detail__involve-price">
+                                    <div class="product_detail__involve-price--origin">3.200.000đ</div>
+                                    <div class="product_detail__involve-price--desc">2.880.000đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="grid wide container-wrapper">
+                <div class="row">
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="footer-top__title">
+                            Chăm sóc khách hàng
+                        </div>
+                        <ul class="footer-top__list">
+                            <li class="footer-top__item"><a href="#" class="footer-top__link">trung tâm trợ giúp</a>
+                            </li>
+                            <li class="footer-top__item"><a href="#" class="footer-top__link">Hướng dẫn mua hàng</a>
+                            </li>
+                            <li class="footer-top__item"><a href="#" class="footer-top__link">Chính sách vận
+                                    chuyển</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="footer-top__title">
+                            Về chúng tôi
+                        </div>
+                        <ul class="footer-top__list">
+                            <li class="footer-top__item"><a href="#" class="footer-top__link">giới thiệu về shop</a>
+                            </li>
+                            <li class="footer-top__item"><a href="#" class="footer-top__link">tuyển dụng</a></li>
+                            <li class="footer-top__item"><a href="#" class="footer-top__link">Điều khoản shop</a></li>
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 m-0 c-0">
+
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="footer-top__title">
+                            Theo dõi chúng tôi trên
+                        </div>
+
+                    </div>
+                    <div class="col l-2-4 m-3 c-6">
+                        <div class="footer-top__title">
+                            Vào cửa hàng trên ứng dụng MyOhui
+                        </div>
+                        <div class="footer-top__app">
+                            <div class="footer-top__QR  ">
+                                <img src="./img/QR.png" alt="">
+                            </div>
+                            <div class="footer-top__img">
+                                <div class="footer-top__appstore">
+                                    <img src="./img/appstore.png" alt="">
+                                </div>
+                                <div class="footer-top__gg-play">
+                                    <img src="./img/ggplay.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container-wrappeer">
+                <div class="footer-bottom__policies">
+                    <ul class="footer-bottom__policies-list">
+                        <li class="footer-bottom__policies-item">
+                            <a href="#" class="footer-bottom__policies-link">
+                                Chính sách bảo mật
+                            </a>
+                        </li>
+                        <li class="footer-bottom__policies-item">
+                            <a href="#" class="footer-bottom__policies-link">
+                                Quy chế hoạt động
+                            </a>
+                        </li>
+                        <li class="footer-bottom__policies-item">
+                            <a href="#" class="footer-bottom__policies-link">
+                                Chính sách trả hàng và hoàn tiền
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom__copy-right">
+                    <i class="fal fa-copyright"></i> 2020 Mỹ Phẩm Ohui - LG Vina - 63 Lê Văn Lương, Trung Hòa, Cầu Giấy,
+                    Hà Nội
+                </div>
+                <div class="footer-bottom__power">
+                    <i class="fas fa-heart"></i> Powered by <a href="#">TickID</a> - Nền tảng Web bán hàng miễn phí
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/custome.js"></script>
+</body>
+
+</html>
